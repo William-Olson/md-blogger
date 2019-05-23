@@ -1,0 +1,38 @@
+
+body {
+  background: #eee;
+  color: rgb(24, 23, 23);
+  width: 800px;
+  margin: 80 auto;
+  font-size: 1.3em;
+}
+
+h1,h2,h3 {
+  color: rgb(46, 46, 46);
+}
+
+a {
+  color: green;
+}
+
+pre {
+  background: darkslategray;
+  padding: 2em;
+  border-radius: 5px;
+  color: white;
+}
+
+blockquote {
+  background: lightgray;
+  color: black;
+  padding: 3px 15px;
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+:not(pre) > code {
+  color: red;
+  background: lightcyan;
+  border-radius: 2px;
+  padding: 0 3px;
+}
